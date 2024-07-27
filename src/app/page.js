@@ -3,11 +3,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="bg-[url('/background.svg')] bg-auto w-full h-full mobile:bg-none mobile:bg-[#313338] mobile:py-5 mobile:px-4">
-      <div className="top-12 left-12 fixed mb-2 mobile:w-full mobile:flex mobile:justify-center mobile:static">
+      <div className="top-12 left-12 fixed mobile:w-full mobile:flex mobile:justify-center mobile:static">
         <img src="/discord-logo.svg" className="mobile:w-[130px] mobile:h-[36px]"/>
       </div>
       <div className="h-full flex justify-center items-center mobile:h-fit">
-        <div className="w-[784px] h-[408px] bg-[#313338] flex justify-between items-center rounded-[5px] p-8 tablet:w-auto mobile:p-0 mobile:w-full shadow-[0_2px_10px_0_rgba(0,0,0,0.2)] mobile:shadow-none">
+        <div className="w-[784px] h-[408px] bg-[#313338] flex justify-between items-center rounded-[5px] shadow-[0_2px_10px_0_rgba(0,0,0,0.2)] p-8 tablet:w-auto mobile:p-0 mobile:w-full mobile:shadow-none">
             <div className="w-[416px] flex flex-col justify-center items-center mobile:w-full">
               <div className="flex flex-col justify-center items-center text-center">
                 <div className="text-white text-2xl font-semibold mb-2">Welcome back!</div>
@@ -36,7 +36,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="w-[240px] flex flex-col items-center justify-center tablet:hidden">
+            <div className="w-[240px] flex flex-col justify-center items-center tablet:hidden">
               <div className="mb-8">
                 <img src="/qrcode.png" className="flex-shrink-0"></img>
               </div>
