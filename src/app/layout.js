@@ -1,7 +1,4 @@
-import { Noto_Sans } from "next/font/google";
 import "./globals.css";
-
-const noto = Noto_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Discord",
@@ -11,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={noto.className}>{children}</body>
+      <body className="font-ggSans">{children}</body>
     </html>
   );
 }
